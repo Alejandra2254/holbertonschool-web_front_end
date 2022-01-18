@@ -26,7 +26,7 @@ a {
 .section-tagline {
 	color: var(--color-primary);
 }
-.section.header {
+.section-header {
 	text-align: var(--section-header-align);
 }
 :root {
