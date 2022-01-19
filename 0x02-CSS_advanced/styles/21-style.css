@@ -77,7 +77,6 @@ template{display: none;} /* prettier-ignore */
 	--nav-item-display: inline-block;
 	--nav-item-margin: 0 0 3rem 0;
 	--nav-item-link-hover: var(--color-primary);
-	/* grid styling */
 	--section-tagline-margin: 0;
 }
 *,
@@ -185,6 +184,7 @@ a:active {
 .nav .nav-link:hover {
 	color: var(--nav-item-link-hover);
 }
+
 ul.row {
 	margin: 0;
 	padding: 0;
@@ -196,20 +196,15 @@ ul.row {
 }
 .col-1-3 {
 	width: 33.33%;
-	float: left;
-	padding: 0.5rem;
 }
 .col-1-2 {
 	width: 50%;
-	float: left;
-	padding: 0.5rem;
 }
 .footer-copyright {
 	margin: 0;
 	font-size: var(--font-size-small);
 	color: var(--text-color);
 }
-
 .footer ul {
 	text-align: right;
 }
